@@ -1,0 +1,134 @@
+* {
+  /*font-family: "Gamja Flower", cursive;*/
+  font-size: 12px;
+}
+
+.case {
+  /*border-right: solid;*/
+  text-align: center;
+}
+
+.title {
+}
+
+#titlename {
+}
+
+.choice {
+}
+
+.body {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100px;
+  overflow: auto;
+  background-color: blanchedalmond;
+}
+
+.result {
+  border-top: solid;
+  padding: 10px;
+}
+
+#titlename {
+  border-left: slategray;
+  border-bottom: slategray;
+  box-shadow: slategray;
+}
+
+.steps {
+  height: 40px;
+  border: dashed;
+  display: inline;
+  background-color: yellow;
+  padding: 10px;
+}
+
+.prog {
+  padding: 10px;
+}
+.progress {
+  height: 20px;
+}
+
+.chosen {
+}
+
+.input {
+}
+
+.bookselect {
+}
+
+.bottom {
+  height: 480px;
+  overflow: auto;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+#canvas1 {
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
+}
+
+#plan {
+  overflow: hidden;
+}
+
+@keyframes mm {
+  50% {
+    margin-left: -20%;
+  }
+}
+
+@keyframes m2 {
+  0% {
+    width: 310px;
+    height: 300px;
+  }
+  50% {
+    width: 410px;
+    height: 400px;
+  }
+  75% {
+    width: 250px;
+    height: 250px;
+  }
+  100% {
+    width: 310px;
+    height: 300px;
+  }
+}
+
+#hanna {
+  width: 310px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.realbutton {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+}
+
+#ibutton {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+#hannaimg1 {
+  height: 310px;
+  width: 300px;
+}
+
+#hannaimg2 {
+  height: 450px;
+  width: 550px;
+}
